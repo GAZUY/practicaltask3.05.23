@@ -1,5 +1,5 @@
 //Задания, в которых необходимо использовать WHILE.
-/*
+
 let number_of_repetitions = +(prompt ('Введите число повторений #')as string)
 let quantity = 1
 while (quantity <= number_of_repetitions){
@@ -100,7 +100,7 @@ let maximum_range_value = +(prompt('укажите конечное значен
 for (minimum_range_value = minimum_range_value + 3; minimum_range_value <= maximum_range_value; minimum_range_value += 4){
     document.write (' ' +minimum_range_value+ ' ')  
 }
-*/
+
 
 let prime_number = +(prompt('введите число для проверки: простое или нет')as string)
 for (let i = 2;i <= prime_number; i ++) {
